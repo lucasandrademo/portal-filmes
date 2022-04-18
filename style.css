@@ -1,21 +1,3 @@
-.nav-header{
-    padding: 0.5rem;
-}
-
-.logo {
-    border-style: solid;
-    padding: 0.25rem 2rem;
-    border-color: black;
-    border-width: 0.1rem;
-    margin: 0rem 0rem;
-    font-weight: bold;
-    color: black !important;
-}
-
-.title {
-    padding: 2rem 0rem 1rem 0rem;
-}
-
 /* Backgrounds */
 .bg-gray {
     background: #e9e9e9;
@@ -37,6 +19,20 @@ header, footer{
 ::placeholder {
     color: black;
     opacity: 1;
+}
+
+.logo {
+    border-style: solid;
+    padding: 0.25rem 2rem;
+    border-color: black;
+    border-width: 0.1rem;
+    margin: 0rem 0rem;
+    font-weight: bold;
+    color: black !important;
+}
+
+.title {
+    padding: 2rem 0rem 1rem 0rem;
 }
 
 /* avaliações */
@@ -89,6 +85,12 @@ header, footer{
     width: 100%;
 }
 
+/* editorial */
+
+.editorial-paragrafo {
+    font-size: larger;
+}
+
 /* header */
 #header_box_icone_busca {
     position: relative;
@@ -114,6 +116,10 @@ header, footer{
     border-radius: 0.5rem;
     border-color: black;
     padding: 0.5rem 2rem;
+}
+
+.header-nav{
+    padding: 0.5rem;
 }
 
 /* lançamento */
