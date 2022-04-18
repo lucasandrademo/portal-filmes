@@ -1,5 +1,5 @@
 .nav-header{
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
 }
 
 .logo {
@@ -41,7 +41,30 @@ header, footer{
 
 /* avaliações */
 .avaliacoes-button {
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
+}
+
+.avaliacoes-card {
+    border: none;
+    height: auto;
+}
+
+.avaliacoes-user {
+    padding: 1rem;
+}
+
+.avaliacoes-star-full::before {
+    font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	content: "\f005";
+    color: gray;
+}
+
+.avaliacoes-star-out::before {
+    font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	content: "\f005";
+    color: lightgray;
 }
 
 /* destaque */
@@ -64,11 +87,6 @@ header, footer{
 
 .destaque-drop-width {
     width: 100%;
-}
-
-.destaque-list {
-    padding-right: 4.5rem;
-    padding-left: 5rem;
 }
 
 /* header */
@@ -133,6 +151,30 @@ header, footer{
     height: 100%;
 }
 
+/* making of */
+.makingof-button {
+    padding: 2rem 0rem;
+}
+
+.makingof-bg-card {
+    background-color: transparent;
+    border: none;
+}
+
+.makingod-card {
+    padding: 1rem 0rem;
+}
+
+.makingof-card-title {
+    font-weight: 600;
+    font-size:large;
+}
+
+.novidade-card {
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
 @media (min-width: 1200px)
 {
     /* Gerais */
@@ -142,16 +184,6 @@ header, footer{
 
     .logo {
         margin: 0rem 2rem;    
-    }
-
-    /* destaque */
-    .destaque-last-list {
-        padding-right: 0px !important;
-    }
-
-    .destaque-list {
-        padding-right: 1.5rem;
-        padding-left: 0rem;
     }
 
     /* header */
@@ -180,17 +212,8 @@ header, footer{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1200px)
+@media (min-width: 768px) and (max-width: 1199px)
 {
-    /* destaque */
-    .destaque-last-list {
-        padding-right: 0px !important;
-    }
-
-    .destaque-list {
-        padding-right: 1.5rem;
-        padding-left: 0rem;
-    }
 
     /* header */
     #header_box_icone_busca {
@@ -227,16 +250,6 @@ header, footer{
         padding: 0px;
     }
 
-    .destaque-dropdown {
-        margin-top: 0px;
-        margin-left: 4rem;
-    }
-
-    .destaque-list {
-        padding-right: 4.5rem;
-        padding-left: 5rem;
-    }
-
     /* footer */
     .footer-copyright {
         width: 100%;
@@ -267,15 +280,10 @@ header, footer{
     /* destaque */
     .destaque-card {
         width: auto;
-        height: 55vw;
+        height: 110vw;
         padding: 0px;
     }
     
-    .destaque-dropdown {
-        margin-top: 0px;
-        margin-left: 4rem;
-    }
-        
     /* footer */
     .footer-copyright {
         width: 100%;
