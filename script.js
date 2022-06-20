@@ -5,7 +5,7 @@ let moviesData = [];
 let countAvaliacoes = 0;
 
 const renderAvaliacoes = (avaliacoes) => {
-    if(countAvaliacoes >= 6 || avaliacoes[0].content.length > 1400){
+    if(countAvaliacoes >= 6 || avaliacoes[0].content.length > 1200){
         return
     }
     if(avaliacoes[0] != null){
