@@ -13,67 +13,27 @@
             <nav class="navbar navbar-light navbar-expand-xl header-nav">
                 <div class="container-fluid">
                     <span class="navbar-brand logo">Logo</span>
-                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link header-bar-separator" aria-hidden="true" href="#lancamentos"><strong>Populares</strong></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header-bar-separator" aria-hidden="true" href="#avaliacoes"><strong>Avaliações</strong></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-hidden="true" href="#novidades"><strong>Sobre</strong></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <form>
-                            <input id="busca" class="header-input-icones" type="text" placeholder="Pesquisar filme" />
-                            <span id="header_box_icone_busca">
-                                <i id="header_icone_busca" class="fa fa-search" onclick=""></i>
-                            </span>
-                            <span id="header_box_icone_xmark">
-                                <i id="header_icone_xmark" class="fa-regular fa-circle-xmark" onclick=""></i>
-                            </span>
-                        </form>
-                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-hidden="true" href="index.html"><strong>HOME</strong></a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
 
         <main>
-            <!-- Inicio aba de lançamentos -->
-            <div id="lancamentos" class="bg-gray">
-                <h2 class="text-center title">Populares</h2>
-                <div id="lancamentos-container" class="row">
-                </div>
-            </div>
-            <!-- Fim aba de lançamentos -->
-
-            <!-- Inicio aba de avaliações -->
-            <div id="avaliacoes" class="bg-white countainer">
+            <!-- Inicio aba de Deatlhes -->
+            <div class="bg-white countainer">
                 <div class="row">
                     <div class="col-1"></div>
                     <div class="col-10">
-                        <h2 class="text-left title">Últimas Avaliações</h2>
+                        <div class="row" id="detalhes"></div>
                     </div>
                     <div class="col-1"></div>
                 </div>
-                <div class="countainer">
-                    <div class="row">
-                        <div class="col-1"></div>
-                        <div class="col-10">
-                            <div class="row avaliacoes-container">
-                            </div>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-                </div>
             </div>
-            <!-- Fim aba de avaliações -->
+            <!-- Inicio aba de Deatlhes -->
 
             <!-- Inicio aba de Novidades -->
             <div id="novidades" class="bg-gray countainer">
@@ -140,7 +100,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/6178630cfb.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        <script src="detalhes.js"></script>
 
     </body>
 </html>

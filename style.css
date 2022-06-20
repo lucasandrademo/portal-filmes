@@ -3,6 +3,60 @@
     background: #e9e9e9;
 }
 
+#lancamentos-container {
+    justify-content: center;
+}
+
+.lancamento-card {
+    background: #e9e9e9;
+    padding: 1rem;
+    margin: 2rem;
+    border: none;
+}
+
+.lancamento-card {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.lancamento-card {
+    width: 300px;
+    height: 400px;
+}
+
+.lancamento-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.lancamento-card h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.img_author {
+    width: 100%;
+    height: auto;
+}
+
+.div-poster, .div-detalhe {
+    padding: 3rem 0rem;
+}
+
+.titulo-detalhe {
+    text-align:center;
+}
+
+.desc-detalhe {
+    margin-left: 2rem;
+}
+
+.badge {
+    margin-right: 0.2rem;
+}
+
 .bg-white {
     background: white;
 }
@@ -142,7 +196,7 @@ header, footer{
     font-family: "Font Awesome 5 Free"; 
 	font-weight: 900;
 	content: "\f005";
-    color: gray;
+    color: gold;
 }
 
 .lancamentos-star-out::before {
@@ -150,11 +204,6 @@ header, footer{
 	font-weight: 900;
 	content: "\f005";
     color: lightgray;
-}
-
-.lancamentos-youtube-frame {
-    width: 95%;
-    height: 100%;
 }
 
 /* making of */
