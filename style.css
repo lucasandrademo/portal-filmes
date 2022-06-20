@@ -156,10 +156,9 @@ header, footer{
     left: -3.5rem;
 }
 
-#header_icone_busca, #header_icone_xmark {
+#header_icone_busca {
     display: contents;
     color: #000;
-    cursor: pointer;
 }
 
 .header-input-icones {
@@ -346,11 +345,6 @@ header, footer{
 
     .footer-logo {
         text-align: center !important;
-    }
-
-    /* header */
-    #header_icone_busca, #header_icone_xmark {
-        display: none;
     }
 
     .header-input-icones {
